@@ -1,9 +1,13 @@
-# virtual-dom-starter
+# virtual-dom-webdriver-starter
 
 bare-bones [virtual-dom](https://npmjs.com/package/virtual-dom) starter
 using [main-loop](https://npmjs.com/package/main-loop)
 and [browserify](http://browserify.org)/[watchify](https://npmjs.com/package/watchify)
 with [npm run scripts](http://substack.net/task_automation_with_npm_run)
+and tests driving
+[PhantomJS](http://phantomjs.org/)
+with [WebdriverIO](http://webdriver.io/)
+
 
 [view the starter demo](http://substack.neocities.org/virtual_dom_starter.html)
 
@@ -19,6 +23,8 @@ $ npm start
 * `npm run build` - build js for production
 * `npm run watch` - automatically build js on file changes for development
 * `npm start` - start a development server
+* `npm run phantom` - start a PhantomJS WebDriver server
+* `npm test` - run tests driving PhantomJS
 
 # starter code
 
